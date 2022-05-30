@@ -73,6 +73,8 @@ function pixelify(image) {
 }
 
 function makeHeavy() {
+  injectStyles();
+
   const imgs = document.querySelectorAll("img");
   imgs.forEach(pixelify);
 }
