@@ -40,14 +40,14 @@ function pixelify(image) {
     outContainer.appendChild(out);
 
     out.style.fontFamily = `"JetBrains Mono"`;
-    out.style.lineHeight = "4.81px";
+    out.style.lineHeight = "3.2px";
     out.style.fontSize = "9px";
     out.style.letterSpacing = "-2.8px";
-    out.style.transform = "scale(1.1583710407, 0.6254071661)";
+    out.style.transform = "scale(1.1583710407, 1)";
     out.style.transformOrigin = "top left";
     out.style.marginTop = "-1px";
     out.style.width = `${image.offsetWidth / 1.1583710407}px`;
-    out.style.height = `${image.offsetHeight / 0.6254071661}px`;
+    out.style.height = `${image.offsetHeight / 1}px`;
 
     for (let y = 0; y < imageData.height; y++) {
       for (let x = 0; x < imageData.width; x++) {
