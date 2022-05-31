@@ -9,7 +9,7 @@ Just add this snippet to your HTML:
 
 ```html
 <script
-  src="https://rawcdn.githack.com/gargakshit/heavy.js/12b9ba166b4e6ccdc98d6dcc8b8fca10840717f3/heavy.js"
+  src="https://rawcdn.githack.com/gargakshit/heavy.js/fa84886309cfe2cbe603872e9e68f5ccfb371c46/heavy.js"
   defer
   async
 ></script>
